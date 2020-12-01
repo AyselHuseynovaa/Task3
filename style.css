@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Castoro", serif;
+}
+
+#webpage {
+  margin-top: 20px;
+}
+
+#webpage .content1 {
+  background-color: #e7dce0;
+  width: 100%;
+  padding: 20px;
+}
+
+#webpage .content2 {
+  width: 100%;
+  padding-top: 20px;
+}
+
+#webpage .content2 img {
+  width: 100%;
+  height: 400px;
+}
+
+#webpage .row {
+  margin-top: 4%;
+}
+
+#webpage .row .card-body {
+  text-align: center;
+}
+
+#webpage .row h1 {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content1 {
+    width: 100%;
+    padding: 20px;
+  }
+  .content2 img {
+    width: 100%;
+    height: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
